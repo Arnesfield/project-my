@@ -1,0 +1,31 @@
+.my-flex, .my-center, .my-left, .my-right, .my-middle, .my-top, .my-bottom, .my-stretch {
+  display: flex;
+}
+
+.my-center {
+  justify-content: center;
+}
+
+.my-left {
+  justify-content: flex-start;
+}
+
+.my-right {
+  justify-content: flex-end;
+}
+
+.my-middle {
+  align-items: center;
+}
+
+.my-top {
+  align-items: flex-start;
+}
+
+.my-bottom {
+  align-items: flex-end;
+}
+
+.my-stretch {
+  align-items: stretch;
+}
