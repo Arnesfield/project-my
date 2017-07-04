@@ -1,0 +1,23 @@
+{
+  "name": "project-my",
+  "version": "1.0.0-alpha.1",
+  "description": "A simple CSS framework with the sole purpose of helping structure web pages.",
+  "main": "index.js",
+  "directories": {
+    "dist": "dist",
+    "scss": "scss"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnesfield/project-my.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Jefferson Rylee Franco Espiritu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Arnesfield/project-my/issues"
+  },
+  "homepage": "https://github.com/Arnesfield/project-my#readme"
+}
