@@ -1,8 +1,18 @@
 /* test css */
+body {
+  background-color: #292d3e;
+  color: #b2cccb;
+}
+
 .xx-b {
-  border: 1px solid red;
+  /*border: 1px solid #80cbc4;*/
+  border: 2px solid #737993;
 }
 
 .xx-hvh {
   height: 100vh;
+}
+
+.xx-m {
+  
 }

@@ -1,0 +1,16 @@
+// pos
+$pos-val: (
+  center: (center: middle),
+  flex-start: (left: top),
+  flex-end: (right: bottom),
+  stretch: (null: stretch)
+);
+
+// space
+$space-dir: (
+  null: null,
+  t: top,
+  b: bottom,
+  l: left,
+  r: right
+);

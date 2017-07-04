@@ -1,35 +1,3 @@
-.my-flex, .my-center, .my-middle, .my-left, .my-top, .my-right, .my-bottom, .my-stretch {
-  display: flex;
-}
-
-.my-center {
-  justify-content: center;
-}
-
-.my-middle {
-  align-items: center;
-}
-
-.my-left {
-  justify-content: flex-start;
-}
-
-.my-top {
-  align-items: flex-start;
-}
-
-.my-right {
-  justify-content: flex-end;
-}
-
-.my-bottom {
-  align-items: flex-end;
-}
-
-.my-stretch {
-  align-items: stretch;
-}
-
 .my-m-1 {
   margin: 0.5em;
 }

@@ -2,37 +2,17 @@
   display: flex;
 }
 
-.my-center {
-  @extend .my-flex;
-  justify-content: center;
-}
-
-.my-left {
-  @extend .my-flex;
-  justify-content: flex-start;
-}
-
-.my-right {
-  @extend .my-flex;
-  justify-content: flex-end;
-}
-
-.my-middle {
-  @extend .my-flex;
-  align-items: center;
-}
-
-.my-top {
-  @extend .my-flex;
-  align-items: flex-start;
-}
-
-.my-bottom {
-  @extend .my-flex;
-  align-items: flex-end;
-}
-
-.my-stretch {
-  @extend .my-flex;
-  align-items: stretch;
+@each $val, $dir in $pos-val {
+  @each $x-dir, $y-dir in $dir {
+    @if ($x-dir) {
+      .my-#{$x-dir} {
+        @extend .my-flex;
+        justify-content: $val;
+      }
+    }
+    .my-#{$y-dir} {
+      @extend .my-flex;
+      align-items: $val;
+    }
+  }
 }

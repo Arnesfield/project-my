@@ -1,0 +1,11 @@
+// margin and padding
+@each $prop-abbr, $prop in (m: margin, p: padding) {
+  @each $dir-abbr, $dir in $space-dir {
+    @for $i from 1 through 5 {
+      .my-#{$prop-abbr}#{$dir-abbr}-#{$i} {
+        $hyphen: if($dir, '-', null);
+        #{$prop}#{$hyphen}#{$dir}: #{$i/2}em;
+      }
+    }
+  }
+}
