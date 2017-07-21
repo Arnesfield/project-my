@@ -7,9 +7,12 @@ A simple CSS framework with the sole purpose of helping structure web pages.
 - **my** is not and will not include a *CSS reset*.
 - **my** is meant to be simple and straightforward.
 
-### Current Version Highlights (v1.0.0-alpha.1)
-- Margins and paddings.
-- Element positioning using flexbox.
+### Current Version Highlights (v1.0.0-alpha.2)
+- Customize some text properties.
+  - Text alignments
+  - Font sizes
+  - Letter and word spacing
+  - Line heights
 
 ## Installation
 - Install with [npm](https://www.npmjs.com/): `npm install project-my`
@@ -20,6 +23,7 @@ A simple CSS framework with the sole purpose of helping structure web pages.
 You may choose to only use parts that you may need.
 - Position elements with **my-pos**.
 - Add your margins and paddings with **my-space**.
+- Customize your texts with **my-text**.
 
 ## Copyright and License
 **project-my** is licensed under the [MIT License](https://github.com/Arnesfield/project-my/blob/master/LICENSE).

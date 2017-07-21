@@ -14,3 +14,17 @@ $space-dir: (
   l: left,
   r: right
 );
+
+// text
+$text-align: (
+  c: center,
+  j: justify,
+  l: left,
+  r: right
+);
+
+// font
+$text-size: (15, 25, 50, 100, 150);
+
+// line height
+$line-height: (1.25, 1.75, 2, 2.5, 3);

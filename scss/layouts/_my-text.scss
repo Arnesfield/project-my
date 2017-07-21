@@ -1,0 +1,33 @@
+// text align
+@each $abbr, $val in $text-align {
+  .my-ta-#{$abbr} {
+    text-align: $val;
+  }
+}
+
+// font sizes
+.my-fs {
+  font-size: 1rem;
+}
+
+@for $i from 0 to length($text-size) {
+  .my-fs-#{$i+1} {
+    font-size: (nth($text-size, $i+1) + 100) * 1%;
+  }
+}
+
+// letter and word spacing
+@each $abbr, $prop in (ls: letter-spacing, ws: word-spacing) {
+  @for $i from 0 to length($text-size) {
+    .my-#{$abbr}-#{$i+1} {
+      #{$prop}: #{nth($text-size, $i+1) / 100}em;
+    }
+  }
+}
+
+// line height
+@for $i from 0 to length($line-height) {
+  .my-lh-#{$i+1} {
+    line-height: #{nth($line-height, $i+1)}em;
+  }
+}
